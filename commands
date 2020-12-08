@@ -1,0 +1,25 @@
+Go to GitHub and make a new repository by clicking on new repository.
+
+Now clone the repository
+
+git clone - this command clone your repository in terminal.
+
+git init - this command starts a new project.
+
+git remote add origin git@github.com: <alias>
+
+git status - The git status command displays the working directory and staging area conditions. It allows you to see which changes were unprepared, which were not and which files are not being monitored by Git. 
+
+git add . - The add command is used to add any file changes to the git INDEX, which is a special area where files are being prepared for committing. When we use add, we are saying that the file will be adding to the next commit, when this is done
+
+git commit -m "alias" - This command performs what we call "commit", which means taking all the files that are in that INDEX place that the add command added and creating a revision with a number and a comment, which will be seen by everyone.
+
+git push -u origin master  
+
+git remote -v - shows remote repository.
+
+git add remote <alias> URL - link the remote server with local machine.
+
+git checkout - Updates files in the working tree to match the version in the index or the specified tree. If no pathspec was given, git checkout will also update HEAD to set the specified branch as the current branch.
+
+
